@@ -1,0 +1,1100 @@
+----------------------------------------------------------------------
+1_10_TD10
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_10_TD10_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_10_TD10_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_10_TD10_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_10_TD10_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_10_TD10_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_10_TD10_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_10_TD10_merged.fastq --output-basename 1_10_TD10 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_10_TD10 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_10_TD10_merged.fastq
+----------------------------------------------------------------------
+1_1_TD1
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_1_TD1_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_1_TD1_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_1_TD1_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_1_TD1_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_1_TD1_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_1_TD1_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_1_TD1_merged.fastq --output-basename 1_1_TD1 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_1_TD1 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_1_TD1_merged.fastq
+----------------------------------------------------------------------
+1_2_TD2
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_2_TD2_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_2_TD2_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_2_TD2_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_2_TD2_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_2_TD2_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_2_TD2_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_2_TD2_merged.fastq --output-basename 1_2_TD2 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_2_TD2 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_2_TD2_merged.fastq
+----------------------------------------------------------------------
+1_3_TD3
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_3_TD3_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_3_TD3_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_3_TD3_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_3_TD3_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_3_TD3_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_3_TD3_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_3_TD3_merged.fastq --output-basename 1_3_TD3 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_3_TD3 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_3_TD3_merged.fastq
+----------------------------------------------------------------------
+1_4_TD4
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_4_TD4_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_4_TD4_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_4_TD4_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_4_TD4_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_4_TD4_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_4_TD4_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_4_TD4_merged.fastq --output-basename 1_4_TD4 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_4_TD4 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_4_TD4_merged.fastq
+----------------------------------------------------------------------
+1_5_TD5
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_5_TD5_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_5_TD5_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_5_TD5_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_5_TD5_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_5_TD5_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_5_TD5_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_5_TD5_merged.fastq --output-basename 1_5_TD5 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_5_TD5 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_5_TD5_merged.fastq
+----------------------------------------------------------------------
+1_6_TD6
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_6_TD6_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_6_TD6_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_6_TD6_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_6_TD6_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_6_TD6_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_6_TD6_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_6_TD6_merged.fastq --output-basename 1_6_TD6 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_6_TD6 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_6_TD6_merged.fastq
+----------------------------------------------------------------------
+1_7_TD7
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_7_TD7_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_7_TD7_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_7_TD7_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_7_TD7_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_7_TD7_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_7_TD7_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_7_TD7_merged.fastq --output-basename 1_7_TD7 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_7_TD7 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_7_TD7_merged.fastq
+----------------------------------------------------------------------
+1_8_TD8
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_8_TD8_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_8_TD8_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_8_TD8_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_8_TD8_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_8_TD8_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_8_TD8_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_8_TD8_merged.fastq --output-basename 1_8_TD8 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_8_TD8 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_8_TD8_merged.fastq
+----------------------------------------------------------------------
+1_9_TD9
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_9_TD9_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_9_TD9_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_9_TD9_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_9_TD9_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_9_TD9_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/1_9_TD9_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_9_TD9_merged.fastq --output-basename 1_9_TD9 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_9_TD9 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/1_9_TD9_merged.fastq
+----------------------------------------------------------------------
+2_10_TD20
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_10_TD20_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_10_TD20_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_10_TD20_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_10_TD20_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_10_TD20_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_10_TD20_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_10_TD20_merged.fastq --output-basename 2_10_TD20 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_10_TD20 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_10_TD20_merged.fastq
+----------------------------------------------------------------------
+2_1_TD11
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_1_TD11_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_1_TD11_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_1_TD11_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_1_TD11_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_1_TD11_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_1_TD11_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_1_TD11_merged.fastq --output-basename 2_1_TD11 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_1_TD11 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_1_TD11_merged.fastq
+----------------------------------------------------------------------
+2_2_TD12
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_2_TD12_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_2_TD12_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_2_TD12_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_2_TD12_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_2_TD12_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_2_TD12_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_2_TD12_merged.fastq --output-basename 2_2_TD12 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_2_TD12 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_2_TD12_merged.fastq
+----------------------------------------------------------------------
+2_3_TD13
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_3_TD13_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_3_TD13_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_3_TD13_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_3_TD13_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_3_TD13_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_3_TD13_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_3_TD13_merged.fastq --output-basename 2_3_TD13 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_3_TD13 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_3_TD13_merged.fastq
+----------------------------------------------------------------------
+2_4_TD14
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_4_TD14_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_4_TD14_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_4_TD14_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_4_TD14_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_4_TD14_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_4_TD14_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_4_TD14_merged.fastq --output-basename 2_4_TD14 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_4_TD14 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_4_TD14_merged.fastq
+----------------------------------------------------------------------
+2_5_TD15
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_5_TD15_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_5_TD15_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_5_TD15_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_5_TD15_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_5_TD15_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_5_TD15_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_5_TD15_merged.fastq --output-basename 2_5_TD15 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_5_TD15 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_5_TD15_merged.fastq
+----------------------------------------------------------------------
+2_6_TD16
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_6_TD16_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_6_TD16_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_6_TD16_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_6_TD16_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_6_TD16_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_6_TD16_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_6_TD16_merged.fastq --output-basename 2_6_TD16 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_6_TD16 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_6_TD16_merged.fastq
+----------------------------------------------------------------------
+2_7_TD17
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_7_TD17_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_7_TD17_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_7_TD17_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_7_TD17_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_7_TD17_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_7_TD17_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_7_TD17_merged.fastq --output-basename 2_7_TD17 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_7_TD17 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_7_TD17_merged.fastq
+----------------------------------------------------------------------
+2_8_TD18
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_8_TD18_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_8_TD18_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_8_TD18_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_8_TD18_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_8_TD18_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_8_TD18_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_8_TD18_merged.fastq --output-basename 2_8_TD18 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_8_TD18 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_8_TD18_merged.fastq
+----------------------------------------------------------------------
+2_9_TD19
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_9_TD19_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_9_TD19_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_9_TD19_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_9_TD19_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_9_TD19_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/2_9_TD19_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_9_TD19_merged.fastq --output-basename 2_9_TD19 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_9_TD19 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/2_9_TD19_merged.fastq
+----------------------------------------------------------------------
+3_10_TD28
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_10_TD28_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_10_TD28_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_10_TD28_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_10_TD28_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_10_TD28_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_10_TD28_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_10_TD28_merged.fastq --output-basename 3_10_TD28 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_10_TD28 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_10_TD28_merged.fastq
+----------------------------------------------------------------------
+3_1_TD22
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_1_TD22_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_1_TD22_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_1_TD22_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_1_TD22_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_1_TD22_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_1_TD22_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_1_TD22_merged.fastq --output-basename 3_1_TD22 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_1_TD22 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_1_TD22_merged.fastq
+----------------------------------------------------------------------
+3_2_TD23
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_2_TD23_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_2_TD23_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_2_TD23_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_2_TD23_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_2_TD23_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_2_TD23_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_2_TD23_merged.fastq --output-basename 3_2_TD23 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_2_TD23 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_2_TD23_merged.fastq
+----------------------------------------------------------------------
+3_3_TD24
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_3_TD24_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_3_TD24_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_3_TD24_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_3_TD24_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_3_TD24_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_3_TD24_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_3_TD24_merged.fastq --output-basename 3_3_TD24 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_3_TD24 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_3_TD24_merged.fastq
+----------------------------------------------------------------------
+3_4_TD25
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_4_TD25_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_4_TD25_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_4_TD25_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_4_TD25_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_4_TD25_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_4_TD25_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_4_TD25_merged.fastq --output-basename 3_4_TD25 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_4_TD25 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_4_TD25_merged.fastq
+----------------------------------------------------------------------
+3_5_TD27
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_5_TD27_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_5_TD27_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_5_TD27_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_5_TD27_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_5_TD27_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_5_TD27_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_5_TD27_merged.fastq --output-basename 3_5_TD27 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_5_TD27 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_5_TD27_merged.fastq
+----------------------------------------------------------------------
+3_6_TD29
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_6_TD29_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_6_TD29_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_6_TD29_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_6_TD29_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_6_TD29_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_6_TD29_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_6_TD29_merged.fastq --output-basename 3_6_TD29 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_6_TD29 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_6_TD29_merged.fastq
+----------------------------------------------------------------------
+3_7_TD30
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_7_TD30_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_7_TD30_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_7_TD30_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_7_TD30_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_7_TD30_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_7_TD30_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_7_TD30_merged.fastq --output-basename 3_7_TD30 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_7_TD30 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_7_TD30_merged.fastq
+----------------------------------------------------------------------
+3_8_TD21
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_8_TD21_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_8_TD21_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_8_TD21_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_8_TD21_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_8_TD21_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_8_TD21_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_8_TD21_merged.fastq --output-basename 3_8_TD21 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_8_TD21 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_8_TD21_merged.fastq
+----------------------------------------------------------------------
+3_9_TD26
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_9_TD26_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_9_TD26_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_9_TD26_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_9_TD26_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_9_TD26_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/3_9_TD26_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_9_TD26_merged.fastq --output-basename 3_9_TD26 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_9_TD26 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/3_9_TD26_merged.fastq
+----------------------------------------------------------------------
+4_10_TD37
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_10_TD37_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_10_TD37_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_10_TD37_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_10_TD37_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_10_TD37_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_10_TD37_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_10_TD37_merged.fastq --output-basename 4_10_TD37 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_10_TD37 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_10_TD37_merged.fastq
+----------------------------------------------------------------------
+4_1_TD31
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_1_TD31_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_1_TD31_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_1_TD31_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_1_TD31_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_1_TD31_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_1_TD31_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_1_TD31_merged.fastq --output-basename 4_1_TD31 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_1_TD31 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_1_TD31_merged.fastq
+----------------------------------------------------------------------
+4_2_TD32
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_2_TD32_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_2_TD32_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_2_TD32_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_2_TD32_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_2_TD32_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_2_TD32_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_2_TD32_merged.fastq --output-basename 4_2_TD32 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_2_TD32 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_2_TD32_merged.fastq
+----------------------------------------------------------------------
+4_3_TD34
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_3_TD34_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_3_TD34_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_3_TD34_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_3_TD34_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_3_TD34_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_3_TD34_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_3_TD34_merged.fastq --output-basename 4_3_TD34 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_3_TD34 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_3_TD34_merged.fastq
+----------------------------------------------------------------------
+4_4_TD35
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_4_TD35_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_4_TD35_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_4_TD35_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_4_TD35_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_4_TD35_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_4_TD35_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_4_TD35_merged.fastq --output-basename 4_4_TD35 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_4_TD35 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_4_TD35_merged.fastq
+----------------------------------------------------------------------
+4_5_TD36
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_5_TD36_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_5_TD36_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_5_TD36_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_5_TD36_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_5_TD36_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_5_TD36_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_5_TD36_merged.fastq --output-basename 4_5_TD36 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_5_TD36 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_5_TD36_merged.fastq
+----------------------------------------------------------------------
+4_6_TD38
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_6_TD38_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_6_TD38_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_6_TD38_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_6_TD38_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_6_TD38_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_6_TD38_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_6_TD38_merged.fastq --output-basename 4_6_TD38 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_6_TD38 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_6_TD38_merged.fastq
+----------------------------------------------------------------------
+4_7_TD39
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_7_TD39_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_7_TD39_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_7_TD39_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_7_TD39_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_7_TD39_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_7_TD39_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_7_TD39_merged.fastq --output-basename 4_7_TD39 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_7_TD39 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_7_TD39_merged.fastq
+----------------------------------------------------------------------
+4_8_TD40
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_8_TD40_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_8_TD40_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_8_TD40_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_8_TD40_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_8_TD40_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_8_TD40_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_8_TD40_merged.fastq --output-basename 4_8_TD40 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_8_TD40 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_8_TD40_merged.fastq
+----------------------------------------------------------------------
+4_9_TD33
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_9_TD33_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_9_TD33_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_9_TD33_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_9_TD33_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_9_TD33_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/4_9_TD33_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_9_TD33_merged.fastq --output-basename 4_9_TD33 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_9_TD33 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/4_9_TD33_merged.fastq
+----------------------------------------------------------------------
+5_10_TD50
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_10_TD50_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_10_TD50_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_10_TD50_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_10_TD50_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_10_TD50_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_10_TD50_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_10_TD50_merged.fastq --output-basename 5_10_TD50 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_10_TD50 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_10_TD50_merged.fastq
+----------------------------------------------------------------------
+5_1_TD41
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_1_TD41_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_1_TD41_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_1_TD41_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_1_TD41_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_1_TD41_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_1_TD41_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_1_TD41_merged.fastq --output-basename 5_1_TD41 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_1_TD41 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_1_TD41_merged.fastq
+----------------------------------------------------------------------
+5_2_TD42
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_2_TD42_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_2_TD42_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_2_TD42_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_2_TD42_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_2_TD42_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_2_TD42_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_2_TD42_merged.fastq --output-basename 5_2_TD42 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_2_TD42 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_2_TD42_merged.fastq
+----------------------------------------------------------------------
+5_3_TD43
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_3_TD43_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_3_TD43_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_3_TD43_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_3_TD43_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_3_TD43_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_3_TD43_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_3_TD43_merged.fastq --output-basename 5_3_TD43 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_3_TD43 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_3_TD43_merged.fastq
+----------------------------------------------------------------------
+5_4_TD44
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_4_TD44_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_4_TD44_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_4_TD44_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_4_TD44_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_4_TD44_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_4_TD44_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_4_TD44_merged.fastq --output-basename 5_4_TD44 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_4_TD44 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_4_TD44_merged.fastq
+----------------------------------------------------------------------
+5_5_TD45
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_5_TD45_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_5_TD45_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_5_TD45_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_5_TD45_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_5_TD45_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_5_TD45_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_5_TD45_merged.fastq --output-basename 5_5_TD45 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_5_TD45 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_5_TD45_merged.fastq
+----------------------------------------------------------------------
+5_6_TD46
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_6_TD46_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_6_TD46_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_6_TD46_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_6_TD46_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_6_TD46_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_6_TD46_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_6_TD46_merged.fastq --output-basename 5_6_TD46 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_6_TD46 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_6_TD46_merged.fastq
+----------------------------------------------------------------------
+5_7_TD47
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_7_TD47_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_7_TD47_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_7_TD47_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_7_TD47_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_7_TD47_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_7_TD47_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_7_TD47_merged.fastq --output-basename 5_7_TD47 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_7_TD47 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_7_TD47_merged.fastq
+----------------------------------------------------------------------
+5_8_TD48
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_8_TD48_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_8_TD48_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_8_TD48_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_8_TD48_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_8_TD48_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_8_TD48_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_8_TD48_merged.fastq --output-basename 5_8_TD48 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_8_TD48 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_8_TD48_merged.fastq
+----------------------------------------------------------------------
+5_9_TD49
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_9_TD49_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_9_TD49_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_9_TD49_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_9_TD49_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_9_TD49_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/5_9_TD49_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_9_TD49_merged.fastq --output-basename 5_9_TD49 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_9_TD49 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/5_9_TD49_merged.fastq
+----------------------------------------------------------------------
+6_10_TD60
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_10_TD60_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_10_TD60_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_10_TD60_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_10_TD60_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_10_TD60_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_10_TD60_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_10_TD60_merged.fastq --output-basename 6_10_TD60 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_10_TD60 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_10_TD60_merged.fastq
+----------------------------------------------------------------------
+6_1_TD51
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_1_TD51_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_1_TD51_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_1_TD51_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_1_TD51_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_1_TD51_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_1_TD51_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_1_TD51_merged.fastq --output-basename 6_1_TD51 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_1_TD51 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_1_TD51_merged.fastq
+----------------------------------------------------------------------
+6_2_TD52
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_2_TD52_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_2_TD52_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_2_TD52_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_2_TD52_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_2_TD52_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_2_TD52_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_2_TD52_merged.fastq --output-basename 6_2_TD52 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_2_TD52 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_2_TD52_merged.fastq
+----------------------------------------------------------------------
+6_3_TD53
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_3_TD53_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_3_TD53_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_3_TD53_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_3_TD53_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_3_TD53_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_3_TD53_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_3_TD53_merged.fastq --output-basename 6_3_TD53 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_3_TD53 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_3_TD53_merged.fastq
+----------------------------------------------------------------------
+6_4_TD54
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_4_TD54_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_4_TD54_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_4_TD54_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_4_TD54_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_4_TD54_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_4_TD54_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_4_TD54_merged.fastq --output-basename 6_4_TD54 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_4_TD54 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_4_TD54_merged.fastq
+----------------------------------------------------------------------
+6_5_TD55
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_5_TD55_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_5_TD55_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_5_TD55_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_5_TD55_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_5_TD55_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_5_TD55_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_5_TD55_merged.fastq --output-basename 6_5_TD55 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_5_TD55 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_5_TD55_merged.fastq
+----------------------------------------------------------------------
+6_6_TD56
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_6_TD56_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_6_TD56_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_6_TD56_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_6_TD56_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_6_TD56_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_6_TD56_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_6_TD56_merged.fastq --output-basename 6_6_TD56 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_6_TD56 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_6_TD56_merged.fastq
+----------------------------------------------------------------------
+6_7_TD57
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_7_TD57_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_7_TD57_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_7_TD57_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_7_TD57_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_7_TD57_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_7_TD57_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_7_TD57_merged.fastq --output-basename 6_7_TD57 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_7_TD57 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_7_TD57_merged.fastq
+----------------------------------------------------------------------
+6_8_TD58
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_8_TD58_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_8_TD58_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_8_TD58_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_8_TD58_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_8_TD58_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_8_TD58_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_8_TD58_merged.fastq --output-basename 6_8_TD58 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_8_TD58 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_8_TD58_merged.fastq
+----------------------------------------------------------------------
+6_9_TD59
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_9_TD59_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_9_TD59_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_9_TD59_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_9_TD59_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_9_TD59_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/6_9_TD59_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_9_TD59_merged.fastq --output-basename 6_9_TD59 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_9_TD59 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/6_9_TD59_merged.fastq
+----------------------------------------------------------------------
+7_10_TD70
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_10_TD70_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_10_TD70_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_10_TD70_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_10_TD70_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_10_TD70_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_10_TD70_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_10_TD70_merged.fastq --output-basename 7_10_TD70 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_10_TD70 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_10_TD70_merged.fastq
+----------------------------------------------------------------------
+7_1_TD61
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_1_TD61_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_1_TD61_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_1_TD61_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_1_TD61_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_1_TD61_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_1_TD61_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_1_TD61_merged.fastq --output-basename 7_1_TD61 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_1_TD61 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_1_TD61_merged.fastq
+----------------------------------------------------------------------
+7_2_TD62
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_2_TD62_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_2_TD62_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_2_TD62_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_2_TD62_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_2_TD62_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_2_TD62_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_2_TD62_merged.fastq --output-basename 7_2_TD62 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_2_TD62 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_2_TD62_merged.fastq
+----------------------------------------------------------------------
+7_3_TD63
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_3_TD63_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_3_TD63_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_3_TD63_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_3_TD63_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_3_TD63_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_3_TD63_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_3_TD63_merged.fastq --output-basename 7_3_TD63 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_3_TD63 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_3_TD63_merged.fastq
+----------------------------------------------------------------------
+7_4_TD64
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_4_TD64_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_4_TD64_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_4_TD64_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_4_TD64_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_4_TD64_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_4_TD64_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_4_TD64_merged.fastq --output-basename 7_4_TD64 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_4_TD64 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_4_TD64_merged.fastq
+----------------------------------------------------------------------
+7_5_TD65
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_5_TD65_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_5_TD65_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_5_TD65_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_5_TD65_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_5_TD65_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_5_TD65_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_5_TD65_merged.fastq --output-basename 7_5_TD65 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_5_TD65 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_5_TD65_merged.fastq
+----------------------------------------------------------------------
+7_6_TD66
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_6_TD66_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_6_TD66_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_6_TD66_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_6_TD66_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_6_TD66_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_6_TD66_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_6_TD66_merged.fastq --output-basename 7_6_TD66 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_6_TD66 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_6_TD66_merged.fastq
+----------------------------------------------------------------------
+7_7_TD67
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_7_TD67_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_7_TD67_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_7_TD67_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_7_TD67_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_7_TD67_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_7_TD67_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_7_TD67_merged.fastq --output-basename 7_7_TD67 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_7_TD67 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_7_TD67_merged.fastq
+----------------------------------------------------------------------
+7_8_TD68
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_8_TD68_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_8_TD68_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_8_TD68_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_8_TD68_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_8_TD68_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_8_TD68_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_8_TD68_merged.fastq --output-basename 7_8_TD68 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_8_TD68 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_8_TD68_merged.fastq
+----------------------------------------------------------------------
+7_9_TD69
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_9_TD69_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_9_TD69_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_9_TD69_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_9_TD69_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_9_TD69_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/7_9_TD69_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_9_TD69_merged.fastq --output-basename 7_9_TD69 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_9_TD69 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/7_9_TD69_merged.fastq
+----------------------------------------------------------------------
+8_10_TD79
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_10_TD79_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_10_TD79_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_10_TD79_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_10_TD79_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_10_TD79_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_10_TD79_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_10_TD79_merged.fastq --output-basename 8_10_TD79 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_10_TD79 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_10_TD79_merged.fastq
+----------------------------------------------------------------------
+8_1_TD72
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_1_TD72_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_1_TD72_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_1_TD72_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_1_TD72_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_1_TD72_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_1_TD72_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_1_TD72_merged.fastq --output-basename 8_1_TD72 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_1_TD72 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_1_TD72_merged.fastq
+----------------------------------------------------------------------
+8_2_TD73
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_2_TD73_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_2_TD73_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_2_TD73_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_2_TD73_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_2_TD73_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_2_TD73_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_2_TD73_merged.fastq --output-basename 8_2_TD73 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_2_TD73 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_2_TD73_merged.fastq
+----------------------------------------------------------------------
+8_3_TD74
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_3_TD74_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_3_TD74_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_3_TD74_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_3_TD74_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_3_TD74_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_3_TD74_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_3_TD74_merged.fastq --output-basename 8_3_TD74 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_3_TD74 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_3_TD74_merged.fastq
+----------------------------------------------------------------------
+8_4_TD75
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_4_TD75_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_4_TD75_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_4_TD75_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_4_TD75_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_4_TD75_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_4_TD75_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_4_TD75_merged.fastq --output-basename 8_4_TD75 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_4_TD75 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_4_TD75_merged.fastq
+----------------------------------------------------------------------
+8_5_TD76
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_5_TD76_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_5_TD76_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_5_TD76_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_5_TD76_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_5_TD76_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_5_TD76_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_5_TD76_merged.fastq --output-basename 8_5_TD76 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_5_TD76 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_5_TD76_merged.fastq
+----------------------------------------------------------------------
+8_6_TD77
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_6_TD77_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_6_TD77_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_6_TD77_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_6_TD77_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_6_TD77_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_6_TD77_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_6_TD77_merged.fastq --output-basename 8_6_TD77 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_6_TD77 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_6_TD77_merged.fastq
+----------------------------------------------------------------------
+8_7_TD78
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_7_TD78_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_7_TD78_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_7_TD78_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_7_TD78_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_7_TD78_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_7_TD78_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_7_TD78_merged.fastq --output-basename 8_7_TD78 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_7_TD78 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_7_TD78_merged.fastq
+----------------------------------------------------------------------
+8_8_TD80
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_8_TD80_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_8_TD80_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_8_TD80_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_8_TD80_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_8_TD80_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_8_TD80_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_8_TD80_merged.fastq --output-basename 8_8_TD80 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_8_TD80 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_8_TD80_merged.fastq
+----------------------------------------------------------------------
+8_9_TD71
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_9_TD71_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_9_TD71_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_9_TD71_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_9_TD71_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_9_TD71_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/8_9_TD71_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_9_TD71_merged.fastq --output-basename 8_9_TD71 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_9_TD71 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/8_9_TD71_merged.fastq
+----------------------------------------------------------------------
+9_10_TD90
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_10_TD90_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_10_TD90_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_10_TD90_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_10_TD90_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_10_TD90_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_10_TD90_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_10_TD90_merged.fastq --output-basename 9_10_TD90 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_10_TD90 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_10_TD90_merged.fastq
+----------------------------------------------------------------------
+9_1_TD81
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_1_TD81_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_1_TD81_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_1_TD81_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_1_TD81_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_1_TD81_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_1_TD81_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_1_TD81_merged.fastq --output-basename 9_1_TD81 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_1_TD81 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_1_TD81_merged.fastq
+----------------------------------------------------------------------
+9_2_TD82
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_2_TD82_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_2_TD82_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_2_TD82_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_2_TD82_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_2_TD82_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_2_TD82_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_2_TD82_merged.fastq --output-basename 9_2_TD82 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_2_TD82 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_2_TD82_merged.fastq
+----------------------------------------------------------------------
+9_3_TD83
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_3_TD83_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_3_TD83_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_3_TD83_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_3_TD83_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_3_TD83_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_3_TD83_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_3_TD83_merged.fastq --output-basename 9_3_TD83 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_3_TD83 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_3_TD83_merged.fastq
+----------------------------------------------------------------------
+9_4_TD84
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_4_TD84_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_4_TD84_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_4_TD84_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_4_TD84_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_4_TD84_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_4_TD84_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_4_TD84_merged.fastq --output-basename 9_4_TD84 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_4_TD84 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_4_TD84_merged.fastq
+----------------------------------------------------------------------
+9_5_TD85
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_5_TD85_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_5_TD85_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_5_TD85_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_5_TD85_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_5_TD85_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_5_TD85_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_5_TD85_merged.fastq --output-basename 9_5_TD85 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_5_TD85 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_5_TD85_merged.fastq
+----------------------------------------------------------------------
+9_6_TD86
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_6_TD86_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_6_TD86_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_6_TD86_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_6_TD86_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_6_TD86_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_6_TD86_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_6_TD86_merged.fastq --output-basename 9_6_TD86 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_6_TD86 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_6_TD86_merged.fastq
+----------------------------------------------------------------------
+9_7_TD87
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_7_TD87_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_7_TD87_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_7_TD87_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_7_TD87_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_7_TD87_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_7_TD87_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_7_TD87_merged.fastq --output-basename 9_7_TD87 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_7_TD87 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_7_TD87_merged.fastq
+----------------------------------------------------------------------
+9_8_TD88
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_8_TD88_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_8_TD88_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_8_TD88_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_8_TD88_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_8_TD88_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_8_TD88_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_8_TD88_merged.fastq --output-basename 9_8_TD88 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_8_TD88 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_8_TD88_merged.fastq
+----------------------------------------------------------------------
+9_9_TD89
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_9_TD89_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_9_TD89_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_9_TD89_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_9_TD89_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_9_TD89_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/9_9_TD89_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_9_TD89_merged.fastq --output-basename 9_9_TD89 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_9_TD89 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/9_9_TD89_merged.fastq
+----------------------------------------------------------------------
+10_10_TD98
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_10_TD98_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_10_TD98_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_10_TD98_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_10_TD98_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_10_TD98_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_10_TD98_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_10_TD98_merged.fastq --output-basename 10_10_TD98 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_10_TD98 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_10_TD98_merged.fastq
+----------------------------------------------------------------------
+10_1_TD91
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_1_TD91_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_1_TD91_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_1_TD91_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_1_TD91_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_1_TD91_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_1_TD91_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_1_TD91_merged.fastq --output-basename 10_1_TD91 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_1_TD91 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_1_TD91_merged.fastq
+----------------------------------------------------------------------
+10_2_TD92
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_2_TD92_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_2_TD92_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_2_TD92_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_2_TD92_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_2_TD92_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_2_TD92_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_2_TD92_merged.fastq --output-basename 10_2_TD92 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_2_TD92 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_2_TD92_merged.fastq
+----------------------------------------------------------------------
+10_3_TD93
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_3_TD93_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_3_TD93_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_3_TD93_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_3_TD93_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_3_TD93_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_3_TD93_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_3_TD93_merged.fastq --output-basename 10_3_TD93 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_3_TD93 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_3_TD93_merged.fastq
+----------------------------------------------------------------------
+10_4_TD94
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_4_TD94_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_4_TD94_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_4_TD94_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_4_TD94_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_4_TD94_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_4_TD94_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_4_TD94_merged.fastq --output-basename 10_4_TD94 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_4_TD94 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_4_TD94_merged.fastq
+----------------------------------------------------------------------
+10_5_TD95
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_5_TD95_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_5_TD95_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_5_TD95_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_5_TD95_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_5_TD95_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_5_TD95_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_5_TD95_merged.fastq --output-basename 10_5_TD95 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_5_TD95 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_5_TD95_merged.fastq
+----------------------------------------------------------------------
+10_6_TD96
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_6_TD96_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_6_TD96_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_6_TD96_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_6_TD96_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_6_TD96_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_6_TD96_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_6_TD96_merged.fastq --output-basename 10_6_TD96 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_6_TD96 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_6_TD96_merged.fastq
+----------------------------------------------------------------------
+10_7_TD99
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_7_TD99_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_7_TD99_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_7_TD99_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_7_TD99_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_7_TD99_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_7_TD99_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_7_TD99_merged.fastq --output-basename 10_7_TD99 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_7_TD99 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_7_TD99_merged.fastq
+----------------------------------------------------------------------
+10_8_TD100
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_8_TD100_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_8_TD100_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_8_TD100_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_8_TD100_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_8_TD100_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_8_TD100_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_8_TD100_merged.fastq --output-basename 10_8_TD100 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_8_TD100 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_8_TD100_merged.fastq
+----------------------------------------------------------------------
+10_9_TD97
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_9_TD97_paired_dehost.1.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_9_TD97_paired_dehost.2.fastq.gz -k
+gunzip /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_9_TD97_unpaired_dehost.fastq.gz -k
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_9_TD97_paired_dehost.1.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_9_TD97_paired_dehost.2.fastq
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/4.bowtie2_dehost/10_9_TD97_unpaired_dehost.fastq
+cd /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann
+humann -r --input /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_9_TD97_merged.fastq --output-basename 10_9_TD97 --output /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_9_TD97 --threads 16 --memory-use maximum --metaphlan-options --bowtie2db /home/zhanggaopu/software/metaphlan/bowtie2db_for_humann --index mpa_vJan21_CHOCOPhlAnSGB_202103 --nproc 16 --bowtie-options --threads 16 --diamond-options --threads 16 --nucleotide-database /home/zhanggaopu/software/humann/humann_database/chocophlan --protein-database /home/zhanggaopu/software/humann/humann_database/uniref90/uniref
+rm /home/zhanggaopu/crisprome/human_temporal_metagenome_wangjun_2022natComm/intermediates/24.cas_profiling/humann/10_9_TD97_merged.fastq
